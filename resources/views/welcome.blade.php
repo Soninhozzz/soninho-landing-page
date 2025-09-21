@@ -14,7 +14,7 @@
          <a href="#solucao" class="cta-button">Iniciar minha jornada!</a>
     </div>
 
-    <div class="container text-center py-5">
+    <div class="container text-center py-5" id="problema">
         <div class="row">
             <div class="col-12">
                 <h2 class="mb-4"> O desafio do descanso na vida acadêmica</h2>
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <div style="background-color: #f3f4f6;">
+    <div style="background-color: #f3f4f6;" id="solucao">
         <div class="container text-center py-5">
             <div class="row">
                 <div class="col-12">
@@ -84,7 +84,7 @@
             </div>  
     </div>
     
-    <div class="container text-center py-5">
+    <div class="container text-center py-5" id="galeria">
         <div class="row">
             <div class="col-12">
                 <h2 class="mb-5">O Aplicativo em Ação</h2>
@@ -116,7 +116,7 @@
             </div>
     </div>
 
-    <div class="container py-5"> 
+    <div class="container py-5" id="FAQ"> 
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h2 class="mb-5">Perguntas Frequentes</h2>

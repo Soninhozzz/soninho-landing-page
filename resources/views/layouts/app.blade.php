@@ -10,8 +10,47 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    <style> 
+
+        html{
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            font-family: 'Figtree', sans-serif;
+            padding-top: 56px;
+        }
+    </style>
 </head>
 <body class="antialiased">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Soninho</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#problema">O Problema</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#solucao">A Solução</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">O App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#FAQ">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
 
     <main>
         @yield('content')
