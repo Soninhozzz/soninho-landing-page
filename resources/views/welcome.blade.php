@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <div style="background-color: #f3f4f6;" id="solucao">
+    <div  id="solucao">
         <div class="container text-center py-5">
             <div class="row">
                 <div class="col-12">
@@ -49,9 +49,9 @@
             </div>
             <div class="row">
                 <div class="col-md-4 mb-4">
-                    <div class="p-4" style="background-color: white; border-radius: 15px; height: 100%;">
-                        <h4 class="mb-3" style="color: #483d8b;">Jornada do herói</h4>
-                        <p style="color:#555;">
+                    <div class="p-4" style="background-color: var(--foco-do-heroi); border-radius: 15px; height: 100%;">
+                        <h4 class="mb-3" style="color: #fff;">Jornada do herói</h4>
+                        <p style="color: var(--luz-estelar);">
                             Transformamos a busca por uma melhor rotina de sono em uma jornada épica
                             onde você é o herói. Usamos a gamificação com metas e recompensas para manter você
                             motivado e engajado em sua jornada rumo ao descanso ideal.
@@ -60,9 +60,9 @@
                 </div>
 
                 <div class="col-md-4 mb-4">
-                    <div class="p-4" style="background-color: white; border-radius: 15px; height: 100%;">
-                        <h4 class="mb-3" style="color: #483d8b;">Recursos práticos</h4>
-                        <p style="color:#555;">
+                    <div class="p-4" style="background-color: var(--foco-do-heroi); border-radius: 15px; height: 100%;">
+                        <h4 class="mb-3" style="color: #fff;">Recursos práticos</h4>
+                        <p style="color: var(--luz-estelar);">
                             O aplicativo oferece guia de meditações, sons para relaxamento, além de 
                             oferecer dicas especiais para reduzir sua ansiedade diária e melhorar a
                             qualidade do seu sono. Tudo isso pensado para um descanso reparador e eficaz.
@@ -71,9 +71,9 @@
                 </div>
 
                 <div class="col-md-4 mb-4">
-                    <div class="p-4" style="background-color: white; border-radius: 15px; height: 100%;">
-                        <h4 class="mb-3" style="color: #483d8b;">Experiência interativa</h4>
-                        <p style="color:#555;">
+                    <div class="p-4" style="background-color: var(--foco-do-heroi); border-radius: 15px; height: 100%;">
+                        <h4 class="mb-3" style="color: #fff;">Experiência interativa</h4>
+                        <p style="color: var(--luz-estelar);">
                             A união da gamificação com os recursos práticos e uma interface amigável cria uma
                             experiência totalmente única, transformando você no herói do seu próprio descanso
                             e bem-estar.
@@ -95,7 +95,7 @@
                 <img src="{{ asset('images/coelho.jpeg') }}" alt="Herói do Soninho" style="width: 150px;
          margin-bottom: 20px;">
                 <div class="card-body">
-                    <h5 class="card-title" style="color: #333">Diário do descanso</h5>
+                    <h5 class="card-title" style="color: var(--sussuro)">Diário do descanso</h5>
                 </div>
             </div>
 
@@ -103,7 +103,7 @@
                 <img src="{{ asset('images/coelho.jpeg') }}" alt="Herói do Soninho" style="width: 150px;
          margin-bottom: 20px;">
                 <div class="card-body">
-                    <h5 class="card-title" style="color: #333">Registro da noite</h5>
+                    <h5 class="card-title" style="color: var(--sussuro)">Registro da noite</h5>
                 </div>
             </div>
 
@@ -111,19 +111,19 @@
                 <img src="{{ asset('images/coelho.jpeg') }}" alt="Herói do Soninho" style="width: 150px;
          margin-bottom: 20px;">
                 <div class="card-body">
-                    <h5 class="card-title" style="color: #333">Biblioteca de Morfeu</h5>
+                    <h5 class="card-title" style="color: var(--sussuro)">Biblioteca de Morfeu</h5>
                 </div>
             </div>
     </div>
 
-    <div class="container py-5" id="FAQ"> 
+    <div class="container text-center-py-5" id="FAQ"> 
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h2 class="mb-5">Perguntas Frequentes</h2>
             </div>
             <div class="col-md-8">
                 <div class="mb-4">
-                    <h5 style="color: #483d8b;">Um aplicativo para as pessoas mexerem
+                    <h5 style="color: #8a2be2;">Um aplicativo para as pessoas mexerem
                     menos no celular antes de dormir?</h5>
                     <p>
                         Sim! O uso do app é intencional e limitado. A ideia é que você utilize
@@ -136,7 +136,7 @@
                     </p>
 
                     <div class="mb-4">
-                    <h5 style="color: #483d8b;">As técnicas têm base científica?</h5>
+                    <h5 style="color: #8a2be2;">As técnicas têm base científica?</h5>
                     <p>
                         Sim. Usamos apenas práticas comprovadas, como respiração controlada e 
                         frequências baixas, todas apresentadas e aprovadas pela Roselene, 
@@ -144,7 +144,7 @@
                     </p>
 
                     <div class="mb-4">
-                    <h5 style="color: #483d8b;">É complicado de usar todo dia?</h5>
+                    <h5 style="color: #8a2be2;">É complicado de usar todo dia?</h5>
                     <p>
                         Não. O registro diário pretende ser rápido e visual,
                          feito com ícones para não se tornar uma tarefa cansativa, mas sim

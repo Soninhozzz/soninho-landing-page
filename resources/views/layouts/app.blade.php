@@ -9,19 +9,12 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@400;
+    600&display=swap" rel="stylesheet">
+
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <style> 
-
-        html{
-            scroll-behavior: smooth;
-        }
-        body {
-            margin: 0;
-            font-family: 'Figtree', sans-serif;
-            padding-top: 56px;
-        }
-    </style>
 </head>
 <body class="antialiased">
 
