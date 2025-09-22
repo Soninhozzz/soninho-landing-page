@@ -8,7 +8,7 @@
         <img src="{{ asset('images/hero.png') }}" alt="Herói do Soninho" style="width: 150px;
          margin-bottom: 20px;">
 
-         <h1>Toda grande jornada tem seus desafios</h1>
+         <h1><b>Toda grande jornada tem seus desafios</b></h1>
          <p>A ansiedade e as noites em claro não precisam ser seus inimigos. </p>
 
          <a href="#solucao" class="cta-button">Iniciar minha jornada!</a>
@@ -17,7 +17,7 @@
     <div class="container text-center py-5" id="problema">
         <div class="row">
             <div class="col-12">
-                <h2 class="mb-4"> O desafio do descanso na vida acadêmica</h2>
+                <h2 class="mb-4"><b> O desafio do descanso na vida acadêmica</b></h2>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -43,14 +43,14 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="mb-5" style="color:333;">
-                        A nossa solução: SONINHO!
+                        A nossa solução: <b>SONINHO</b>!
                     </h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="p-4" style="background-color: var(--foco-do-heroi); border-radius: 15px; height: 100%;">
-                        <h4 class="mb-3" style="color: #fff;">Jornada do herói</h4>
+                        <h4 class="mb-3" style="color: #fff;"><b>Jornada do herói</b></h4>
                         <p style="color: var(--luz-estelar);">
                             Transformamos a busca por uma melhor rotina de sono em uma jornada épica
                             onde você é o herói. Usamos a gamificação com metas e recompensas para manter você
@@ -61,7 +61,7 @@
 
                 <div class="col-md-4 mb-4">
                     <div class="p-4" style="background-color: var(--foco-do-heroi); border-radius: 15px; height: 100%;">
-                        <h4 class="mb-3" style="color: #fff;">Recursos práticos</h4>
+                        <h4 class="mb-3" style="color: #fff;"><b>Recursos práticos</b></h4>
                         <p style="color: var(--luz-estelar);">
                             O aplicativo oferece guia de meditações, sons para relaxamento, além de 
                             oferecer dicas especiais para reduzir sua ansiedade diária e melhorar a
@@ -72,7 +72,7 @@
 
                 <div class="col-md-4 mb-4">
                     <div class="p-4" style="background-color: var(--foco-do-heroi); border-radius: 15px; height: 100%;">
-                        <h4 class="mb-3" style="color: #fff;">Experiência interativa</h4>
+                        <h4 class="mb-3" style="color: #fff;"><b>Experiência interativa</b></h4>
                         <p style="color: var(--luz-estelar);">
                             A união da gamificação com os recursos práticos e uma interface amigável cria uma
                             experiência totalmente única, transformando você no herói do seu próprio descanso
@@ -87,7 +87,7 @@
     <div class="container text-center py-5" id="galeria">
         <div class="row">
             <div class="col-12">
-                <h2 class="mb-5">O Aplicativo em Ação</h2>
+                <h2 class="mb-5"><b>O Aplicativo em Ação</b></h2>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -119,7 +119,7 @@
     <div class="container text-center-py-5" id="FAQ"> 
         <div class="row justify-content-center">
             <div class="col-12 text-center">
-                <h2 class="mb-5">Perguntas Frequentes</h2>
+                <h2 class="mb-5"><b>Perguntas Frequentes</b></h2>
             </div>
             <div class="col-md-8">
                 <div class="mb-4">
